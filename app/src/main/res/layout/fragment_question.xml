@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestionFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <!--<FrameLayout
+            android:layout_width="match_parent"
+            android:id="@+id/layout_image"
+            android:layout_height="200dp">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </ProgressBar>
+
+        </FrameLayout>-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_question_text"
+            android:text="Scelte"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            
+            ></TextView>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ckb_A"
+            android:text="Risposta A"
+            ></CheckBox>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ckb_B"
+            android:text="Risposta B"
+            ></CheckBox>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ckb_C"
+            android:text="Risposta C"
+            ></CheckBox>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ckb_D"
+            android:text="Risposta D"
+            ></CheckBox>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ckb_E"
+            android:text="Risposta E"
+            ></CheckBox>
+
+    </LinearLayout>
+</RelativeLayout>

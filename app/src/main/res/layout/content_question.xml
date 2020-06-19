@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_question"
+    tools:context=".QuestionActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/grid_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:visibility= "gone"
+            ></androidx.recyclerview.widget.RecyclerView>
+        <TextView
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/grid_answer"
+            android:text="0/15"
+            android:layout_marginLeft="8dp"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="@android:color/white"
+            android:id="@+id/txt_right_answer"
+            >
+
+        </TextView>
+        <TextView
+                android:visibility="gone"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/grid_answer"
+                android:text="00:15"
+                android:layout_marginLeft="8dp"
+                android:layout_centerVertical="true"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:textColor="@android:color/white"
+                android:id="@+id/txt_timer"
+                >
+
+            </TextView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/sliding_table"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabMode="scrollable"></com.google.android.material.tabs.TabLayout>
+
+        <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/view_pager"
+        android:background="@android:color/white"></androidx.viewpager.widget.ViewPager>
+    </LinearLayout>
+</LinearLayout>
