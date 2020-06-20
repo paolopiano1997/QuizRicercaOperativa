@@ -80,8 +80,7 @@ class QuestionActivity : AppCompatActivity(), NavigationView.OnNavigationItemSel
 
         LocalBroadcastManager.getInstance(this).registerReceiver(goToQuestionNum,IntentFilter(Common.KEY_GO_TO_QUESTION))
 
-        txt_wrong_answer.text = "0"
-        txt_right_answer.text = ("0/${Common.questionList.size}")
+
 
         val toggle = ActionBarDrawerToggle(
             this,drawer_layout,toolbar,R.string.navigation_drawer_open,R.string.navigation_drawer_close
@@ -125,6 +124,7 @@ class QuestionActivity : AppCompatActivity(), NavigationView.OnNavigationItemSel
             //Show timer, right answer text view
             txt_timer.visibility = View.VISIBLE
             txt_right_answer.visibility = View.VISIBLE
+            txt_right_answer.text = ("0/${Common.questionList.size}")
             countTimer()
             getItems()
             grid_answer.setHasFixedSize(true)

@@ -41,7 +41,7 @@ class DBHelper(context: Context): SQLiteAssetHelper(context,DB_NAME, null, DB_VE
     fun getQuestionByBlock(blockId:Int):MutableList<Question>{
         println("Reading questions...")
         val db = instance!!.writableDatabase
-        val cursor = db.rawQuery("SELECT * FROM QUESTION WHERE BlockId=$blockId ORDER BY RANDOM() LIMIT 15",null)
+        val cursor = db.rawQuery("SELECT * FROM QUESTION WHERE BlockId=$blockId ORDER BY RANDOM() LIMIT 16",null)
         val questionList = ArrayList<Question>()
         if(cursor.moveToFirst())
             while(!cursor.isAfterLast){

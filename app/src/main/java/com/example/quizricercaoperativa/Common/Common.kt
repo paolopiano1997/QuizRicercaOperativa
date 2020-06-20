@@ -9,7 +9,7 @@ object Common {
 
     val KEY_BACK_FROM_RESULT: String? = "back_from_result"
     val KEY_GO_TO_QUESTION: String? = "position_go_to"
-    val TOTAL_TIME = 15*60*1000 //15 min
+    val TOTAL_TIME = 16*60*1000 //15 min
 
     var answerSheetListFiltered: MutableList<CurrentQuestion> = ArrayList()
     var answerSheetList: MutableList<CurrentQuestion> = ArrayList()
