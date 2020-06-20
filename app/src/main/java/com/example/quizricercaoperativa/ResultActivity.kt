@@ -52,6 +52,7 @@ class ResultActivity : AppCompatActivity() {
             android.R.id.home -> {
                 val intent = Intent(applicationContext,MainActivity::class.java)
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
+
                 startActivity(intent) //GO back to block when click on back arrow on result activity
             }
         }
