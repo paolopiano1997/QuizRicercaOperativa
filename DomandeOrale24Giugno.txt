@@ -1,0 +1,112 @@
+1	Una matrice m x n è totalmente unimodulare se	
+		A. ogni sottomatrice quadrata ha determinante di valore +1 o -1	
+		B. ogni sottomatrice quadrata ha determinante di valore unitario	
+		C. il suo determinante ha valore unitario	
+		D. il suo determinante vale 0, +1 o -1	
+		E. Ogni sottomatrice quadrata ha determinante di valore 0, +1 o -1	
+		Soluzione: E
+1	Data una funzione f convessa su un insieme S convesso, la corda che unisce due punti della funzione	
+		A. coincide con un flesso della funzione	
+		B. sta al di sotto della funzione ma non coincide mai con essa	
+		C. sta al di sopra della funzione ma non coincide mai con essa	
+		D. sta al di sopra della funzione o è con essa coincidente	
+		E. sta al di sotto della funzione o è con essa coincidente	
+		Soluzione: D
+2	In un problema di programmazione lineare con m vincoli ed n variabili, le condizioni di ortogonalità (complementary slackness)	
+		A. sono m-n	
+		B. sono m+n	
+		C. sono m	
+		D. sono m*n	
+		E. sono n	
+		Soluzione: B
+3	La situazione: primale illimitato e corrispondente duale illimitato
+		A. dipende dal gradiente della funzione obiettivo del primale	
+		B. non può mai verificarsi	
+		C. può verificarsi sotto determinate condizioni	
+		D. dipende dai gradienti delle due funzioni obiettivo	
+		E. si verifica sempre	
+		Soluzione: B
+4	Dati un vettore di parametri a ed un vettore di incognite x, una disequazione della forma a'x<=b è equivalente a	
+		A. a'x<=b, a'x+s=b, s>=0	
+		B. a'x - s = b, s>=0	
+		C. a'x + s = b, s<=0	
+		D. a'x + s = b, s>=0	
+		E. Nessuna di queste	
+		Soluzione: D
+5	Sia v il vertice del politopo corrispondente alla base attuale B. Se B è degenere, un'operazione di pivoting del simplesso primale sposta la soluzione ad un vertice, che è	
+		A. sempre diverso da v	
+		B. diverso da v oppure coincidente con v, dipende dal tableau attuale	
+		C. coincidente con v se il determinante di B è nullo	
+		D. sempre coincidente con v	
+		E. diverso da v purchè il determinante di B sia positivo	
+		Soluzione: D
+6	Se due basi producono la stessa soluzione base ammissibile x, allora x contiene	
+		A. meno di n zeri	
+		B. n-m zeri	
+		C. meno di n-m zeri	
+		D. più di m zeri	
+		E. più di n-m zeri	
+		Soluzione: E
+7	Se un tableau del simplesso primale corrisponde alla soluzione ottima	
+		A. gli elementi della riga 0 sono tutti non negativi	
+		B. gli elementi della colonna 0 sono tutti non negativi	
+		C. gli elementi della riga 0, colonne da 1 a n, sono tutti positivi	
+		D. gli elementi della riga 0, colonne da 1 a n, sono tutti non negativi	
+		E. Nessuna di queste	
+		Soluzione: D
+	8	Nell'algoritmo del simplesso duale, sia a'i (i>0) una riga corrispondente ad un valore negativo in colonna 0. Se tutti i coefficienti della a'i sono positivi o nulli, ciò implica che	
+		A. Il sistema Ax=b è ridondante	
+		B. il problema è impossibile	
+		C. la soluzione attuale è ottima	
+		D. il problema ha soluzione illimitata	
+		E. Nessuna di queste	
+		Soluzione: B
+9	Nell'operazione di pivoting del simplesso primale, in caso di parità nella scelta del pivot, la nuova soluzione base	
+		A. può essere peggiore della soluzione base attuale	
+		B. coincide sempre con la soluzione base attuale	
+		C. non è mai degenere	
+		D. può essere non ammissibile	
+		E. Nessuna di queste	
+		Soluzione: E
+10	In un tableau del simplesso primale, gli elementi della riga 0 (colonne da 1 a n)	
+		A. sono tutti nulli	
+		B. possono avere segno qualunque	
+		C. sono tutti non negativi	
+		D. sono tutti positivi o nulli	
+		E. Nessuna di queste	
+		Soluzione: B
+11	Nel metodo delle due fasi, se al termina della fase 1 la soluzione ha valore negativo	
+		A. si è ottenuta una soluzione base ammissibile per il problema originale	
+		B. significa che la soluzione ottima è illimitata	
+		C. significa che il problema originale è impossibile	
+		D. si è trovata la soluzione ottima del problema originale	
+		E. Nessuna di queste	
+		Soluzione: C
+12	L'aggiunta al tableau del taglio di Gomory relativo ad una riga generatrice frazionaria produce una soluzione (un tableau) che	
+		A. soddisfa il vincolo di interezza ma non è ottima	
+		B. soddisfa il criterio di ottimalità ma non è ammissibile	
+		C. è ammissibile ma non è intera	
+		D. è ammissibile ma non soddisfa il criterio di ottimalità	
+		E. Nessuna di queste	
+		Soluzione: B
+13	Un insieme di m colonne di una matrice intera A m x n è linearmente indipendente se	
+		A. la sottomatrice corrispondente è singolare	
+		B. il determinante della matrice corridpondente è nullo	
+		C. al massimo una colonna può essere espressa come combinazione lineare delle altre	
+		D. una loro combinazione lineare con coefficienti non tutti nulli può produrre il vettore nullo	
+		E. nessuna colonna può essere espressa come combinazione lineare delle altre	
+		Soluzione: E
+14	La combinazione convessa stretta di due punti distinti x ed y di un politopo convesso è	
+		A. un vertice del politopo	
+		B. un punto del politopo non coincidente con un vertice	
+		C. il punto centrale del politopo	
+		D. un punto esterno al politopo	
+		E. Nessuna di queste	
+		Soluzione: B
+15	La programmazione lineare	
+		A. è risolubile in tempo polinomiale, ma non dall'algoritmo del simplesso	
+		B. non è risolubile in tempo polinomiale	
+		C. è risolubile in tempo polinomiale dall'algoritmo del simplesso	
+		D. è risolubile in tempo pseudo-polinomiale dall'algoritmo del simplesso	
+		E. Nessuna di queste	
+		Soluzione: A
