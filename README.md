@@ -10,6 +10,8 @@ Tenete conto che probabilmente cambierà qualche modalità, ma non sappiamo bene
 NOTA: Se settate una risposta e scorrete alla domanda successiva (o a quella precedente), l'App vi conterà per FATTA quella domanda, ovvero non avrete possibilità
 di modificarla.
 
+Per scaricare l'app, c'è il file QuizRicercaOperativa.apk nella directory principale, il resto lo ho messo per condividere i sorgenti.
+
 Critiche per migliorare l'app sono ben accette, anche se con la ripresa degli esami in presenza rimarrà fine a se stessa.
 
 Buono studio e spero vi possa essere d'aiuto.
