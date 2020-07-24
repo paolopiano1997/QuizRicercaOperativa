@@ -26,10 +26,12 @@ class GridAnswerAdapter(internal var context: Context,
     }
 
     override fun getItemCount(): Int {
+        println( " AnswerSheetSize: ${answerSheetList.size}")
         return answerSheetList.size
     }
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
+        println("Position bind view: $position")
         when(answerSheetList[position].type) {
             Common.ANSWER_TYPE.RIGHT_ANSWER ->  holder.question_item.setBackgroundResource(R.drawable.grid_item_right_answer)
             Common.ANSWER_TYPE.WRONG_ANSWER -> holder.question_item.setBackgroundResource(R.drawable.grid_item_wrong_answer)
