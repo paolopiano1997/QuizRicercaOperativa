@@ -1,0 +1,126 @@
+1. Una variabile libera in segno può essere sostituita equivalentemente da
+	A. la differenza fra una variabile non positiva ed una non negativa
+	B. la differenza fra due variabili non negative
+	C. la somma di due variabili non positive
+	D. la somma di due variabili non negative
+	E. la differenza fra una variabile non negativa e una non positiva
+Risposta Corretta: B
+
+2. Quando un primale è illimitato, la situazione: corrispondente duale impossibile	
+	A. dipende dai gradienti delle due funzioni obiettivo	
+	B. non può mai verificarsi	
+	C. può verificarsi sotto determinate condizioni	
+	D. dipende dal gradiente della funzione obiettivo	
+	E. si verifica sempre	
+Risposta Corretta: E
+3. Dato il politopo definito dai vincoli di un LP, una combinazione convessa di vertici ottimi è	
+	A. ottima solo se la combinazione convessa è stretta	
+	B. non ottima	
+	C. ottima sotto particolari condizioni	
+	D. sempre ottima	
+	E. nessuna di queste	
+Risposta Corretta: D
+
+4. Sia v il vertice del politopo corrispondente alla base attuale B. Se B non è degenere, un'operazione di pivoting del simplesso primale sposta la soluzione ad un vertice che è	
+	A. diverso da v oppure coincidente da v, non si può dire	
+	B. coincidente con v se il determinante di B è nullo	
+	C. sempre diverso da v	
+	D. diverso da v purchè il determinante di B sia positivo	
+	E. coincidente con v se il determinante di B è non negativo	
+Risposta Corretta: C
+
+5. Dati una funzione convessa definita su un insieme S convesso ed una soglia t, il sottoinsieme di punti x di S in cui f(x) <= t	
+	A. è concavo	
+	B. è un intorno euclideo	
+	C. è convesso	
+	D. è un intorno esatto	
+	E. è il complemento di S	
+Risposta Corretta: C
+
+6. Nel metodo delle due fasi, se al termina della fase 1 la soluzione ha valore positivo	
+	A. significa che la soluzione ottima è illimitata	
+	B. sotto determinate condizioni si è ottenuta una soluzione base ammissibile per il problema originale	
+	C. si è trovata la soluzione ottima del problema originale	
+	D. si è ottenuta una soluzione base ammissibile per il problema originale	
+	E. significa che il problema è impossibile	
+Risposta Corretta: E
+
+7. Un insieme di colonne di una amtrice intera A m x n non è linearmente indipendente se	
+	A. la loro combinazione lineare che produce il vettore nullo ha tutti i coefficienti nulli	
+	B. ogni colonna può essere espressa come combinazione lineare delle altre	
+	C. la sottomatrice corrispondente non è singolare	
+	D. il determinante della matrice corrispondente è diverso da zero	
+	E. nessuna colonna può essere espressa come combinazione lineare delle altre	
+Risposta Corretta: B
+
+8. In un tableau del simplesso duale, i costi relativi si trovano	
+	A. nella riga 0, colonne corrispondenti alla base	
+	B. nella riga 0, colonne non corrispondenti alla base	
+	C. nella colonna 0, righe non corrispondenti alla base	
+	D. in nessuna di queste posizioni	
+	E. nella colonna 0, nelle righe corrispondenti alla base	
+Risposta Corretta: B
+
+9. Una soluzione base corrispondente ad una sottomatrice base B di una matrice A m x n si ottienne	
+	A. azzerando tutte le variabili e risolvendo il sistema risultante	
+	B. azzerando le variabili base e risolvendo il sistema risultante	
+	C. azzerando le variabili fuori base e risolvendo il sistema risultante	
+	D. dando un valore non nullo alle variabili fuori base e risolvendo il sistema risultante	
+	E. nessuna di queste	
+Risposta Corretta: C
+
+10. Sia P il problema ILP e L(P) il suo rilassamento continuo. Se L(P) è illimitato, allora	
+	A. P è sempre impossibile	
+	B. non si può dire nulla su P	
+	C. P è sempre illimitato	
+	D. P è illimitato salvo casi molto particolari	
+	E. nessuna di queste	
+Risposta Corretta: D
+
+11. Le condizioni di ortogonalità (complementary slackness) di una coppia primale-duale garantiscono	
+	A. l'ammissibilità di due soluzioni, una primale e una duale	
+	B. l'ottimalità di due soluzioni ammissibili, una primale e una duale	
+	C. l'ottimalità di due soluzioni, una primale e una duale, anche se non ammissibili	
+	D. l'ottimalità di una soluzione primale e del suo complemento	
+	E. nessuna di queste	
+Risposta Corretta: B
+
+12. Nell'algoritmo del simplesso primale, utilizzare ad ogni iterazione la regola di Dantzig	
+	A. non garantisce nulla	
+	B. garantisce la convergenza dell'algoritmo nel numero minimo di iterazioni	
+	C. garantisce la convergenza dell'algoritmo	
+	D. garantisce il massimo decremento locale del valore della soluzione 	
+	E. nessuna di queste	
+Risposta Corretta: A
+
+13. In un algoritmo branch-and-bound per un problema di massimizzazione, sia U l'upper-bound del nodo corrente. Il nodo viene ucciso se	
+	A. U è minore o uguale al valore della soluzione ottima corrente	
+	B. U è minore o uguale al valore della soluzione ottima finale	
+	C. U è maggiore o uguale al valore della soluzione ottima corrente	
+	D. U è maggiore o uguale al valore della soluzione ottima finale	
+	E. nessuna di queste	
+Risposta Corretta: A
+
+14. La scelta del pivot del simplesso duale viene determinata da	
+	A. un minimo tra rapporti di valore positivo	
+	B. un minimo tra rapporti di valore negativo	
+	C. un massimo tra rapporti di valore negativo	
+	D. un massimo tra rapporti di valore positivo	
+	E. nessuna di queste	
+Risposta Corretta: C
+
+15. Un algoritmo polinomiale per un problema NP-completo	
+	A. risolverebbe in tempo polinomiale i problemi della classe NP, ma non quelli fortemente NP-completi	
+	B. non può esistere	
+	C. risolverebbe in tempo polinomiale i problemi della classe NP, ma non quelli della classe P	
+	D. risolverebbe ogni problema della classe NP in tempo polinomiale	
+	E. nessuna di queste	
+Risposta Corretta: D
+
+16. In un tableau del simplesso primale, gli elementi della colonna 0 righe da 1 a m	
+	A. contengono i valori attuali delle sole variabili base	
+	B. sono tutti nulli	
+	C. contengono i valori attuali di tutte le variabili	
+	D. contengono i costi relativi	
+	E. contengono i valori ottimi delle sole variabili base	
+Risposta Corretta: A
