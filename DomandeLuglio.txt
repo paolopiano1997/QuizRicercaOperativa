@@ -59,7 +59,7 @@ Risposta Corretta: B
 	C. nella colonna 0, righe non corrispondenti alla base	
 	D. in nessuna di queste posizioni	
 	E. nella colonna 0, nelle righe corrispondenti alla base	
-Risposta Corretta: B
+Risposta Corretta: C
 
 9. Una soluzione base corrispondente ad una sottomatrice base B di una matrice A m x n si ottienne	
 	A. azzerando tutte le variabili e risolvendo il sistema risultante	
